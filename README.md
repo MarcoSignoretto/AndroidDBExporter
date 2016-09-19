@@ -20,6 +20,8 @@ open cmd and prompt
 ####Mac OSX
 ####Linux
 
+NOT FINISHED!!!!!
+
 
 
 
