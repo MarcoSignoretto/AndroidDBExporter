@@ -1,5 +1,6 @@
 # AndroidDBExporter
-Simple script to help developers to export Android DB on your pc  
+Simple script to help developers to export Android DB on your pc 
+This script works only for debuggable app.
 
 ## Installation
 
@@ -17,10 +18,31 @@ open cmd and prompt
 ```sh
   echo %ANDROID_HOME%
 ```
-####Mac OSX
+
 ####Linux
+On linux and Mac ```HOME``` environment var should be already defined so we can only set ```ANDROID_HOME```
+
+In order to setup ```ANDROID_HOME``` we must execute following commands:
+
+```sh
+  sudo nano ~/.bashrc
+```
+
+and add the following lines
+
+```sh
+  #Android SDK home
+  export ANDROID_HOME=/home/marco/Android/sdk
+```
+replace ```/home/marco/Android/sdk``` with your Android SDK location
+
+####Mac OSX
 
 NOT FINISHED!!!!!
+
+##ISSUE
+
+This script not work for Galaxy S6 and maybe other Samsung devices because run-as command used into this script not work on these devices.
 
 
 
