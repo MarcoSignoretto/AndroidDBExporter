@@ -10,14 +10,11 @@ in order to allow the script to find sdk you must setup ```ANDROID_HOME``` envir
 to do that you can execute the following commands:
 
 ####Windows
-open cmd and prompt
+open PowerShell and execute following commands
 ```sh
-  set ANDROID_HOME=path of Android SDK
+  setx -m ANDROID_HOME "C:\Android\sdk"
 ```
- execute following command to verify operation
-```sh
-  echo %ANDROID_HOME%
-```
+replace ```C:\Android\sdk``` with your Android SDK location
 
 ####Linux
 On linux and Mac ```HOME``` environment var should be already defined so we can only set ```ANDROID_HOME```
