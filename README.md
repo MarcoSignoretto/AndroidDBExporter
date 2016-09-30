@@ -9,14 +9,14 @@ in order to allow the script to find sdk you must setup ```ANDROID_HOME``` envir
 
 to do that you can execute the following commands:
 
-####Windows 10
+###Windows 10 (NOT COMPLETED)
 open PowerShell and execute following commands
 ```sh
   setx -m ANDROID_HOME "C:\Android\sdk"
 ```
 replace ```C:\Android\sdk``` with your Android SDK location
 
-####Linux Ubuntu and Mac OSX
+###Linux Ubuntu and Mac OSX
 On linux and Mac ```HOME``` environment var should be already defined so we can only set ```ANDROID_HOME```
 
 In order to setup ```ANDROID_HOME``` we must execute following commands:
@@ -37,7 +37,7 @@ replace ```/home/marco/Android/sdk``` with your Android SDK location and save th
   source ~/.bashrc
 ```
 
-###Optional
+####Optional
 
 in order to execute script in any folder you must configure ```adbe``` command, to do that execute this command
 
