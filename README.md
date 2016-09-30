@@ -31,7 +31,11 @@ and add the following lines
   #Android SDK home
   export ANDROID_HOME=/home/marco/Android/sdk
 ```
-replace ```/home/marco/Android/sdk``` with your Android SDK location
+replace ```/home/marco/Android/sdk``` with your Android SDK location and save the file then execute following command
+
+```sh
+  source ~/.bashrc
+```
 
 ####Mac OSX
 
